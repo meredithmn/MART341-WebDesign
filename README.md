@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Meredith Nichols MART341-WebDesign
 a home for MART341 homework
