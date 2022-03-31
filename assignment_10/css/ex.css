@@ -1,0 +1,44 @@
+/* General Styling */
+.column5_inlay{
+  color: #928a5b;
+}
+#riflegreen{
+  color: #928a5b
+}
+#favorite{
+  color: #658e9c
+}
+body {
+  font-family: serif;
+  font-size: 14px;
+  color: #272727;
+  text-align: center;
+}
+
+.main {
+  background-color: white;
+  width: device-width;
+}
+.column1{
+  width: device-width;
+  background-color: #928a5b;
+}
+.column2{
+  width: device-width;
+  background-color: #4b5a42;
+}
+.column3{
+  width: device-width;
+  background-color: #658e9c
+}
+.column4{
+  width: device-width;
+  background-color: #Ae430a
+}
+.column5{
+  width: device-width;
+   background-color: #272727;
+}
+.h2{
+  background-color: #658e9c;
+}
