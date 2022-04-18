@@ -1,0 +1,197 @@
+#3d2c2e
+#efd09e
+#4a7b9d
+#656839
+#d1603d
+#330F0A
+
+h1{
+    color: #3d2c2e;
+    font-family: Garamond;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+
+}
+.main{
+  background: #efd09e;
+
+}
+
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 700;
+    color: #d1603d;
+    font-family: 'Shadows';
+    text-align: left;
+
+}
+#title2:hover{
+  letter-spacing: 1em;
+  font-weight: 700;
+  color: #522A27;
+  font-family: 'GrapeNuts';
+  text-align:  right;
+}
+.sentence{
+    height: 200px;
+    background-color: #efd09e;
+    text-align: center;
+    color: #3d2c2e;
+
+}
+.titleBorder1{
+    height: 200px;
+    background-color: #efd09e;
+    text-align: center;
+    color: #3d2c2e;
+}
+
+.titleBorder1:hover{
+    background-color: #d1603d;
+    color: #3d2c2e;
+    text-align: center;
+    background-image: url("../images/foxs.png");
+
+}
+.titleBorder{
+    height: 300px;
+    background-color: #efd09e;
+    text-align: center;
+    color: #3d2c2e;
+}
+
+.titleBorder:hover{
+    background-color: #656839;
+    color: #3d2c2e;
+    text-align: center;
+    background-image: url("../images/foxs.png");
+
+}
+.bottom{
+  text-align: center;
+}
+.bottom:hover{
+    background-color: #4a7b9d;
+    color: #330F0A;
+    text-align: center;
+    background-image: url("../images/foxs.png");
+
+}
+
+.subtitle{
+    padding-top: 15px;
+    font-size: 50px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #3d2c2e;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: Quicksand;
+}
+
+.content-paragraph:first-line{
+    font-size: 30px;
+    font-family: Merriweather;
+    line-height: 40px;
+}
+
+.wiki{
+    text-decoration: none;
+    color: #4a7b9d;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 100px;
+
+}
+
+img {
+    border: 20px solid #656839;
+}
+#first-bar{
+  margin-top: 4em;
+  padding: 1em;
+}
+#more:hover{
+  border-radius: 1em 1em 0em 0em;
+}
+body{
+  background-color: #efd09e;
+}
+ header{
+   position: fixed;
+   background color:#efd09e;
+   width: 99%;
+   height: 4em;
+   top: 0px;
+   font-family: Garamond;
+   text-align: right;
+ }
+.menu-item{
+  display: inline-block;
+  margin: 1em .2em;
+  background-color: #656839;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+}
+.menu-item:hover{
+  background-color: #656839;
+
+}
+
+.menu-item a{
+  color:#efd09e;
+  text-decoration: none;
+}
+
+.dropdown{
+  display: inline-block;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  color: #efd09e;
+  background: #d1603d;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content a{
+  color: #efd09e;
+}
+.dropdown-item{
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 6em
+}
+ .dropdown-item:hover{
+   background-color: #656839
+ }
+
+ .site-name{
+   color:#d1603d;
+   float: left;
+   min-width: 6em;
+   padding: 0.5 1em;
+   letter-spacing: 0.2em;
+   font-weight: bold;
+   margin: .2em .2em;
+   font-size: 35px
+ }

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'GrapeNuts';
+  src:url('../fonts/GrapeNuts-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family:'Shadows';
+  src:url('../fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+  font-style: normal;
