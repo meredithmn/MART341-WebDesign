@@ -1,0 +1,158 @@
+#ffeedb
+#e2ccb9
+#8a6552
+#558b6e
+#4da1a9
+
+h1{
+    color: #8a6552;
+    font-family: Garamond;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+
+}
+@media only screen and (min-width: 768px){
+  .col-1 {width: 1%}
+  .col-2 {width: 33%}
+  .col-3 {width: 33%}
+  .col-4 {width: 33%}
+
+  div > img{
+    max-width: 100%;
+  }
+
+}
+[class*=col-]{
+  float: left;
+  padding: 10px;
+
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@@media only screen and (max-width: 768px) {
+  [class*=col-]{
+ width: 100%;
+}
+div > img{
+  max-width: 100%;
+}
+
+}
+.main{
+  background: #ffeedb;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  display: grid;
+}
+img{
+  width: 400px;
+  align-items: center;
+
+}
+.image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 1px;
+
+}
+*{
+  margin: 1px;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+
+}
+body{
+  min-height: 100vh;
+  overflow-x:
+
+}
+
+#first-bar{
+  margin-top: 4em;
+  padding: 1em;
+}
+#more:hover{
+  border-radius: 1em 1em 0em 0em;
+}
+body{
+  background-color: #ffeedb;
+}
+ header{
+   position: fixed;
+   background color:#ffeedb;
+   width: 99%;
+   height: 4em;
+   top: 0px;
+   font-family: Garamond;
+   text-align: right;
+ }
+.menu-item{
+  display: inline-block;
+  margin: 1em .2em;
+  background-color: #e2ccb9;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+}
+.menu-item:hover{
+  background-color: #8a6552;
+
+}
+
+.menu-item a{
+  color:#ffeedb;
+  text-decoration: none;
+}
+
+.dropdown{
+  display: inline-block;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  color: #ffeedb;
+  background: #e2ccb9;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content a{
+  color: #ffeedb;
+}
+.dropdown-item{
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 6em
+}
+ .dropdown-item:hover{
+   background-color: #8a6552
+ }
+
+ .site-name{
+   color:#8a6552;
+   float: left;
+   min-width: 6em;
+   padding: 0.5 1em;
+   letter-spacing: 0.2em;
+   font-weight: bold;
+   margin: .2em .2em;
+   font-size: 35px
+ }
